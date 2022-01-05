@@ -28,7 +28,6 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <Image
-              priority
               src="/images/PerfilMenor.jpg"
               className={utilStyles.borderCircle}
               height={254}
